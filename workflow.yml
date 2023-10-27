@@ -1,0 +1,14 @@
+name: compile-code
+
+on: [push, pull_request]
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run the build script
+        run:
+          cd DevOpsGitActions
+          make
+          .\lotto.exe
+

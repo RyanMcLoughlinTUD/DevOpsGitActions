@@ -163,6 +163,7 @@ void ArrayInput(int *LottoIn, int *FrequencyCount)//the input array
     int i = 0;
     int temp = 0;
     //start message
+    printf("\nEnjoy Gambling your finances away\n");
     printf("\nPlease choose 6 numbers between 1 and 42\n");
     //input loop
     for (i = 0; i < SIZE; i++)
