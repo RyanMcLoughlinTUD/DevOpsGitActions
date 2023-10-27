@@ -3,4 +3,4 @@ WORKDIR /Lotto
 COPY . /Lotto
 RUN apt update && apt-get upgrade -y && apt-get install -y
 RUN make 
-CMD ["./helloworld.exe"]
+CMD ["./lotto"]
