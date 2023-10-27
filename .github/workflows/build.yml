@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run the build script
-        run:
+        run: |
           cd DevOpsGitActions
           make
           .\lotto.exe
