@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Run the build script
         run: |
-          cd DevOpsGitActions
+          cd Lotto
           make
-          .\lotto.exe
+          ./lotto
 
