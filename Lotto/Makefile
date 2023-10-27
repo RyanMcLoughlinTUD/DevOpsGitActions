@@ -8,7 +8,7 @@ OBJ = $(SRC:.c=.o)
 HEADER = 
 
 # Executable name
-EXEC = lotto
+EXEC = helloworld
 
 all: $(EXEC)
 
